@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Proyecto Final</string>
+    <string name="lblAutenticacion">AUTENTICACIÓN DE DATOS</string>
+    <string name="txtEmail">Ingrese Correo</string>
+    <string name="txtContraseña">Ingrese Contraseña</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="imgdescrip">Avatar</string>
+
+    <string name="lblRegistrar">FORMULARIO DE REGISTRO</string>
+    <string name="lblNombre">Nombre:</string>
+    <string name="lblApellido">Apellido:</string>
+    <string name="lblUsuario">Correo Electrónico:</string>
+    <string name="lblContraseña">Contraseña:</string>
+    <string name="btnEnviar">ENVIAR</string>
+    <string name="btnCancelar">CANCELAR</string>
+
+    <string name="btnProductos">Productos</string>
+    <string name="btnNosotros">La Empresa</string>
+
+    <string name="txtNosotros">PlazaVea nace el 1993 con el nombre de Santa Isabel y diez años después nos volvimos parte del Grupo Intercorp, grupo que nos dio el respaldo económico para seguir creciendo y buscando mejorar la vida de más familias peruanas.
+
+En el 2007 comenzamos nuestra expansión por el Perú, siendo los primeros en llegar a provincias; logrando presencia en 25 provincias de costa, sierra y selva; y hoy contamos con más de 100 tiendas para comodidad y satisfacción de más peruanos.
+
+En el 2009 fuimos la primera cadena peruana en conseguir la certificación internacional HACCP para los alimentos frescos.
+
+El 2012 renovamos nuestra imagen buscando refrescarla y adecuarla frente a un Perú cada vez más moderno y en crecimiento.</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="60dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imgdescrip"
+        app:srcCompat="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/lblAutenticacion"
+        android:textColor="#7C1313"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/borde"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableLeft="@drawable/ic_email"
+        android:ems="10"
+        android:hint="@string/txtEmail"
+        android:inputType="textPersonName|textEmailAddress"
+        android:padding="15dp"
+        android:textColorHint="#2E2929" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/borde"
+        android:drawableStart="@drawable/ic_key"
+        android:drawableLeft="@drawable/ic_key"
+        android:ems="10"
+        android:hint="@string/txtContraseña"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColorHint="#2E2929" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/btnIngresar"
+        android:textSize="18sp"
+        app:backgroundTint="#672A17" />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/btnRegistrarse"
+        android:textSize="18sp"
+        app:backgroundTint="#672A17" />
+
+</LinearLayout>

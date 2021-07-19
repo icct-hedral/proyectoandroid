@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="100dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="100dp"
+    android:background="@drawable/bordereg"
+    android:orientation="vertical"
+    tools:context=".RegistroUsuario">
+
+  <TextView
+      android:id="@+id/lblTitulo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#8F3D37"
+      android:padding="30dp"
+      android:text="@string/lblRegistrar"
+      android:textColor="@color/white"
+      android:textSize="24sp"
+      android:textStyle="bold" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="23dp" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="58dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/lblNombre"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+  </LinearLayout>
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="15dp" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="61dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lblApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/lblApellido"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+  </LinearLayout>
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="16dp" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="59dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lblCorreo"
+        android:layout_width="87dp"
+        android:layout_height="46dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/lblUsuario"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+  </LinearLayout>
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="15dp" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lblContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/lblContraseña"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="75dp"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp">
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/btnEnviar"
+        app:backgroundTint="#0F4660" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/btnCancelar"
+        app:backgroundTint="#A63535" />
+  </LinearLayout>
+
+</LinearLayout>

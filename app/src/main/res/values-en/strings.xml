@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="lblAutenticacion">DATA AUTHENTICATION</string>
+    <string name="txtEmail">Enter Email</string>
+    <string name="txtContraseña">Enter Password</string>
+    <string name="btnIngresar">Log In</string>
+    <string name="btnRegistrarse">Sign Up</string>
+    <string name="imgdescrip">Avatar</string>
+
+    <string name="lblRegistrar">REGISTRATION FORM</string>
+    <string name="lblNombre">Name:</string>
+    <string name="lblApellido">Last Name:</string>
+    <string name="lblUsuario">Email:</string>
+    <string name="lblContraseña">Password:</string>
+    <string name="btnEnviar">SEND</string>
+    <string name="btnCancelar">CANCEL</string>
+
+    <string name="btnProductos">Products</string>
+    <string name="btnNosotros">The Company</string>
+
+    <string name="txtNosotros">PlazaVea was born in 1993 with the name of Santa Isabel and ten years later we became part of the Intercorp Group, a group that gave us financial support to continue growing and seeking to improve the lives of more Peruvian families.
+
+In 2007 we began our expansion in Peru, being the first to reach the provinces; achieving presence in 25 provinces of the coast, mountains and jungle; and today we have more than 100 stores for the comfort and satisfaction of more Peruvians.
+
+In 2009 we were the first Peruvian chain to obtain the international HACCP certification for fresh food.
+
+In 2012 we renewed our image seeking to refresh and adapt it to an increasingly modern and growing Peru.</string>
+</resources>
